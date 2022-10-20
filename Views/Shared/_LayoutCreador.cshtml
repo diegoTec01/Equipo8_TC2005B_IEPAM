@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Proyecto_integrador</title>
+    <link href="~/css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/footer.css" rel="stylesheet" type="text/css" />
+    <!--<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Proyecto_integrador.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <input type="checkbox" id="nav-check">
+            <div class="nav-header">
+                <div class="nav-title">
+                    SCION-IEPAM
+                </div>
+            </div>
+            <div class="nav-btn">
+                <label for="nav-check">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+            </div>
+
+            <div class="nav-links">
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="IndexCreador">Inicio</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="CursosCreador">Cursos</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="VideojuegoCreador">SCION</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="AportarConocimiento">Aportar conocimiento</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="DonarCreador">Donar</a>
+                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Login">Salir</a>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <a href="#"><img src="/imagenes/logo.webp" alt=""></a>
+        </div>
+
+        <div class="footer-center">
+
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>Calle Madrid 207 Colonia Mirador</span> Monterrey, Nuevo León <span>CP 64070</span></p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>(81) 2723-0979</p>
+            </div>
+
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="">iepam@nuevoleon.gob.mx</a></p>
+            </div>
+            
+        </div>
+
+        <div class="footer-right">
+
+            <p class="footer-company-about">
+                <span>Responsabilidades de esta dependencia</span>
+                Organismo público descentralizado encargado de ejercer las políticas públicas encaminadas a procurar el desarrollo integral de las personas adultas mayores en el Estado de Nuevo de León.
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

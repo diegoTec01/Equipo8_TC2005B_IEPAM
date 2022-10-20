@@ -1,0 +1,63 @@
+﻿@{
+    Layout = "_LayoutCreador";
+    ViewData["Title"] = "Home Page";
+}
+<link href="~/css/home.css" rel="stylesheet" type="text/css" />
+<section id="fh5co-home" data-section="home" style="background-image: url(images/full_image_2.jpg);" data-stellar-background-ratio="0.5">
+	<div class="gradient"></div>
+	<div class="container">
+		<div class="text-wrap">
+			<div class="text-inner">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="to-animate">Aprende</h1>
+						<h2 class="to-animate">Descubre y Explora la cantidad de cursos que te esperan </h2>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slant"></div>
+</section>
+
+<section id="fh5co-intro">
+	<div class="container">
+		<div class="row row-bottom-padded-lg">
+			<div class="fh5co-block to-animate" style="background-color: #DE27FF;">
+				<div class="overlay-darker"></div>
+				<div class="overlay"></div>
+				<div class="fh5co-text">
+					<i class="fh5co-intro-icon icon-bulb"></i>
+					<h2>Ver cursos</h2>
+					<p>Tenemos cursos de distintas areas y explicados por personas experimentadas</p>
+					<p><a asp-area="" asp-controller="Home" asp-action="CursosCreador" class="btn btn-primary">Ir</a></p>
+				</div>
+			</div>
+			<div class="fh5co-block to-animate" style="background-color: #DE27FF;">
+				<div class="overlay-darker"></div>
+				<div class="overlay"></div>
+				<div class="fh5co-text">
+					<i class="fh5co-intro-icon icon-wrench"></i>
+					<h2>Experiencia Inmersiva</h2>
+					<p>Explora el videojuego donde puedes poner a prueba tus conocimientos con nuestra trivia</p>
+					<p><a asp-area="" asp-controller="Home" asp-action="VideojuegoCreador" class="btn btn-primary">Ver Videojuego</a></p>
+				</div>
+			</div>
+			<div class="fh5co-block to-animate" style="background-color: #DE27FF;">
+				<div class="overlay-darker"></div>
+				<div class="overlay"></div>
+				<div class="fh5co-text">
+					<i class="fh5co-intro-icon icon-rocket"></i>
+					<h2>Donativos</h2>
+					<p>Los donativos son de forma totalmente voluntaria, y esta ayudara a las personas que comparten su experiencia</p>
+					<p><a asp-area="" asp-controller="Home" asp-action="DonarCreador" class="btn btn-primary">Donar</a></p>
+				</div>
+			</div>
+		</div>
+		<div class="row watch-video text-center to-animate">
+			<span>¿Quienes son IEPAM?</span>
+			<button class="grow_box" onclick="location.href='https://www.nl.gob.mx/iepam'">Conocerlos</button>
+		</div>
+
+	</div>
+</section>

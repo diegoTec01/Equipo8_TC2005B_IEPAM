@@ -1,0 +1,51 @@
+﻿@{
+    Layout = "_Layout";
+    ViewData["Title"] = "Donar";
+}
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Curso1</title>
+
+    <link href="~/css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/footer.css" rel="stylesheet" type="text/css" />
+
+    <!--<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Proyecto_integrador.styles.css" asp-append-version="true" />
+
+
+
+    <link href="~/css/DiegoCurso1_min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+</head>
+
+<body style="background: #ddcee8;">
+
+
+    <div class="w-auto p-3">
+        <div class="row row-cols-1 row-cols-md-4">
+            @foreach (var item in Model)
+            {
+                <div class="col">
+
+                    <div class="card text-center h-100">
+
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Nombres @item.Apellidos </h5>
+                            <h5 class="card-title">Creador #@item.Id_creador</h5>
+                            <a class="btn btn-primary" href=@item.Paypal>Ir a PayPal</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            }
+        </div>
+    </div>
+</body>
+</html>

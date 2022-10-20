@@ -1,0 +1,92 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Proyecto_integrador
+build_property.RootNamespace = Proyecto_integrador
+build_property.ProjectDir = /Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/AportarConocimiento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9BcG9ydGFyQ29ub2NpbWllbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/Curso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DdXJzby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/CursoCreador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DdXJzb0NyZWFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/Cursos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DdXJzb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/CursosCreador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DdXJzb3NDcmVhZG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/Donar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Eb25hci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/DonarCreador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Eb25hckNyZWFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/IndexCreador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleENyZWFkb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9TaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/Videojuego.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9WaWRlb2p1ZWdvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Home/VideojuegoCreador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9WaWRlb2p1ZWdvQ3JlYWRvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Shared/_LayoutCreador.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXRDcmVhZG9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/diegoesparza/Documents/Tec/ITC/Construccion de Software/ProyectoFinal/proyecto_v15/Proyecto integrador/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

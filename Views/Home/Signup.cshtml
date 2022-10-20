@@ -1,0 +1,40 @@
+﻿@model ModeloRegistro
+@{
+    Layout = null;
+    ViewData["Title"] = "Signup";
+}
+
+<link href="~/css/Login.css" rel="stylesheet" type="text/css" />
+<script src="~/js/Login.js"></script>
+
+
+<div class="container" onclick="onclick">
+    <div class="top"></div>
+    <div class="bottom"></div>
+    <div class="center">
+        <h2>Crear cuenta</h2>
+        <form asp-action="Signup" asp-controller="Home" method="post">
+            <input asp-for="Nombre" type="text" placeholder="Nombre(s)" required />
+            <input asp-for="Apellido" type="text" placeholder="Apellido(s)" required />
+            <input asp-for="Usuario" type="text" placeholder="Usuario" required />
+            <input asp-for="Email" type="text" placeholder="Email" required />
+            <input asp-for="Password" type="password" placeholder="Password" required />
+            <div class="switch-container">
+                <label>Creador:</label>
+                <input type="checkbox" id="switch" asp-for="Creador">
+                <label for="switch" class="lbl"></label>
+                <input asp-for="Paypal" type="text" placeholder="Link de botón de PayPal" />
+                <a href="https://www.paypal.com/buttons/">Guía para hacer botón de PayPal</a>
+            </div>
+            <a asp-area="" asp-controller="Home" asp-action="Login">Tengo cuenta</a>
+            <button type="submit" class="submit">Registrarse</button>
+        </form>
+        @if (TempData["FailAlert"] != null)
+        {
+            <div class="alertF">
+                @TempData["FailAlert"]
+            </div>
+        }
+        <h2>&nbsp;</h2>
+    </div>
+</div>

@@ -1,0 +1,150 @@
+﻿@{
+    Layout = "_LayoutCreador";
+    ViewData["Title"] = "Videojuego";
+    string juego = "https://i.simmer.io/@Fernankiwi/iepam";
+}
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MINIJUEGOS - IEPAM</title>
+    <meta name="description" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ========================= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Metal+Mania&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link href="~/css/navbar.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/footer.css" rel="stylesheet" type="text/css" />
+
+    <!--<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />-->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Proyecto_integrador.styles.css" asp-append-version="true" />
+
+
+
+    <link href="~/css/DiegoCurso1_min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+</head>
+
+<body style="background: #ddcee8;">
+
+    <!-- BANNER PRINCIPAL -->
+    <div class="breadcrumbs_aree breadcrumbs_bg mb-0" data-bgimg="assets/img/banner.webp">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumbs_text text-center">
+                        <h1>Minijuegos</h1>
+                        <ul class="d-flex justify-content-center">
+                            <li>Elaborados para los cursos</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIN BANNER -->
+    <!-- SECCIÓN PRIMER MINIJUEGO -->
+    <section class="player_details_section mb-125">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="single-player-details">
+                        <div class="side__left">
+                            <div class="image">
+                                <img class="img-fluid" src="/imagenes/baloncesto.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="side__right">
+                            <div class="content">
+                                <span class="title-tag">3d</span>
+                                <h4 class="title">Baloncesto</h4>
+                                <p>
+                                    En este minijuego puedes probar tu destreza encestando
+                                    balones en 4 canastas posibles. El objetivo es responder
+                                    de una manera divertida a 4 preguntas de opción múltiple
+                                    que corresponden a un curso activo.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN SECCIÓN PRIMER MINIJUEGO -->
+    <!-- SECCIÓN SEGUNDO MINIJUEGO -->
+    <section class="player_details_section mb-125">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="single-player-details">
+                        <div class="side__left">
+                            <div class="image">
+                                <img class="img-fluid" src="/imagenes/obstaculos.webp" alt="">
+                            </div>
+                        </div>
+
+                        <div class="side__right">
+                            <div class="content">
+                                <span class="title-tag">Runner</span>
+                                <h4 class="title">Obstáculos</h4>
+                                <p>
+                                    En este minijuego puedes probar tu destreza
+                                    esquivando obstáculos y poner a prueba tus
+                                    reflejos. Comienzas con 3 vidas, cada choque
+                                    tienes la oportunidad de sumar vidas respondiendo
+                                    a la pregunta de forma correcta.
+                                </p>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="player_details_section mb-125">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="single-player-details">
+                        <div style=" margin:auto; width:100%">
+                            <iframe src=@juego style="width:1061px;height:600px"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FIN SECCIÓN SEGUNDO MINIJUEGO -->
+    <!-- INICIO FOOTER -->
+    <!-- FIN FOOTER -->
+    <!-- JAVASCRIPT -->
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/wow.min.js"></script>
+    <script src="/js/main.js"></script>
+
+
+</body>
+
+</html>

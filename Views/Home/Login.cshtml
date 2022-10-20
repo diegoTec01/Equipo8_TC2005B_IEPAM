@@ -1,0 +1,45 @@
+﻿@model ModeloLogin
+@{
+    Layout = null;
+    ViewData["Title"] = "Login";
+ }
+
+<link href="~/css/Login.css" rel="stylesheet" type="text/css" />
+<script src="~/js/Login.js"></script>
+
+<div class="container" onclick="onclick">
+    <div class="top"></div>
+    <div class="bottom"></div>
+    <div class="center">
+        <h2>Log In</h2>
+        <form asp-action="Login" asp-controller="Home" method="post">
+            <label for="Correo">Usuario</label>
+            <input asp-for="Usuario" type="text" placeholder="Usuario" required />
+            <label for="Pass">Password</label>
+            <input asp-for="Pass" type="password" placeholder="Password" required/>
+            <button type="submit" class="submit">Ingresar</button>
+            <!-- Entrada forzada para prueba de pagina-->
+            <a asp-area="" asp-controller="Home" asp-action="Signup">No tengo cuenta</a>
+        </form>
+
+
+
+
+        @if (TempData["SuccessAlert"] != null)
+        {
+            <div class="alertS">
+                @TempData["SuccessAlert"]
+            </div>
+        }
+        @if (TempData["CuentaI"] != null)
+        {
+            <div class="alertF">
+                @TempData["CuentaI"]
+            </div>
+        }
+
+        <h2>&nbsp;</h2>
+    </div>
+</div>
+
+
